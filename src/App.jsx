@@ -24,35 +24,28 @@ import "./styles.css"
  * If you don't have one of the social sites listed, leave it as an empty string.
  */
 const siteProps = {
-  name: "Jean Carlos Oviedo",
-  title: "Web Develop & Content Creator",
-  email: "jeanoviedolopez@gmail.com",
-  gitHub: "jeanoviedo",
+  name: "Jean C. Oviedo Lopez",
+  title: "Desarrollador Web",
+  email: "jeankeeoviedo@gmail.com",
+  gitHub: "JeanOviedo",
   instagram: "jeankeeoviedo",
   linkedIn: "jean-oviedo",
   medium: "",
-  twitter: "jeankeeoviedo",
-  youTube: "Code"
+  twitter: "",
+  youTube: "",
 }
 
-const primaryColor = "#2b0333"
-const secondaryColor = "#D2F1E4"
+const primaryColor = "#b1690a"
+const secondaryColor = "#c0c408"
 
 const App = () => {
   return (
     <div id="main">
       <Header />
-      <Home name={
-        siteProps.name
-      }
-        title={
-          siteProps.title
-        } />
+      <Home name={siteProps.name} title={siteProps.title} />
       <About />
       <Portfolio />
-      <Footer {...siteProps}
-        primaryColor={primaryColor}
-        secondaryColor={secondaryColor} />
+      <Footer {...siteProps} primaryColor={primaryColor} secondaryColor={secondaryColor} />
     </div>
   )
 }

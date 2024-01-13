@@ -8,7 +8,7 @@
  * as you continue to learn and create.
  */
 
-import React from "react";
+import React from "react"
 
 /**
  * Desk image
@@ -19,9 +19,9 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/jean.jpg"
 
-const imageAltText = "desktop with books and laptop";
+const imageAltText = "desktop with books and laptop"
 
 /**
  * Project list
@@ -31,30 +31,30 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Azul Urbano",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Sitio web corporativo diseñado con HTML,CSS y Javascript.",
+    url: "https://azulurbano.com",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Cinex",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "App de películas y series utilizando JavaScript, CSS, React, Redux.",
+    url: "hhttps://github.com/JeanOviedo/Cinex",
   },
   {
-    title: "My Resume Site",
+    title: "Pokex",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "App de pokemon, utilicé en Front-end: React, Redux, HTML, CSS y Back-end: NodeJS, Express Database: PostgreSQL, Sequelize con la POKEAPI.",
+    url: "https://github.com/JeanOviedo/Pokex",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Fifa 21",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "App con api de fifa 2021, Front: React, CSS y Redux con la API de FIFA, Back: Express, Sequelize y PostgreSQL.",
+    url: "https://github.com/JeanOviedo/Fifa",
   },
-];
+]
 
 const Portfolio = () => {
   return (
@@ -64,7 +64,14 @@ const Portfolio = () => {
         <div style={{ maxWidth: "40%", alignSelf: "center" }}>
           <img
             src={image}
-            style={{ height: "90%", width: "100%", objectFit: "cover" }}
+            style={{
+              height: "55%",
+              width: "65%",
+              objectFit: "cover",
+              position: "relative",
+              top: "1rem",
+              left: "8rem",
+            }}
             alt={imageAltText}
           />
         </div>
@@ -80,7 +87,7 @@ const Portfolio = () => {
         </div>
       </div>
     </section>
-  );
-};
+  )
+}
 
-export default Portfolio;
+export default Portfolio
