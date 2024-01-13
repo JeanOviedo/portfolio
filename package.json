@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://jeanoviedo.github.io/portfolio'",
+    "build-gh": "parcel build --public-url 'https://jeanoviedo.github.io/portfolio' src/index.html",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
