@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "Educator JS Codespace Template",
   "source": "src/index.html",
-  "homepage": "https://jeanoviedo.github.io/portfolio",
+  "homepage": "https://jeanoviedo.github.io/portfoliostudent",
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://jeanoviedo.github.io/portfolio' src/index.html",
+    "build-gh": "parcel build --public-url 'https://jeanoviedo.github.io/portfoliostudent' src/index.html",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
