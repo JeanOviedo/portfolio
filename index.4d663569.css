@@ -40,7 +40,6 @@ section img.background {
 }
 
 h1 {
-  color: #fff;
   margin: 0;
   font-family: Cormorant Garamond, serif;
   font-size: 7rem;
@@ -81,21 +80,20 @@ hr {
 }
 
 li {
-  color: "#ffffff", ;
   line-height: 1.7;
 }
 
 li::marker {
-  color: #4e567e;
+  color: #697e4e;
 }
 
 a {
-  color: #fff;
+  color: #000;
   text-decoration: none;
 }
 
 a:hover {
-  color: #101011;
+  color: #4e567e;
 }
 
 .container {
@@ -107,7 +105,7 @@ a:hover {
 
 .container .box {
   text-align: center;
-  border: 1px solid #ccc;
+  border: 1px solid #967928;
   border-radius: 10px;
   flex-direction: column;
   justify-content: flex-start;
